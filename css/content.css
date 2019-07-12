@@ -1,0 +1,410 @@
+.wrapper {
+  max-width: 1370px;
+}
+
+.navbackfill {
+  width: 100%;
+  height: 110px;
+  background-color: rgb(109, 110, 112);
+}
+
+.contheading {
+  font-size: 80px;
+  text-align: center;
+  color: #07056b;
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+section {
+  width: 100%;
+  background-color: #b2e3c5;
+}
+
+.topicwrapper {
+  flex-wrap: wrap;
+  width: calc(100%-30px-30px);
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.discount {
+  margin: 20px;
+  display: flex;
+  border: 2px dashed rgb(13, 98, 116);
+  border-radius: 20px;
+  max-width: 390px;
+  padding: 20px;
+  background-color: #cebaff;
+}
+
+.dp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wifi {
+  margin: 20px;
+  background-color: #cebaff;
+  display: flex;
+  border: 2px dashed rgb(13, 98, 116);
+  border-radius: 20px;
+  max-width: 390px;
+  padding: 20px;
+}
+
+.wifiicon,
+.disicon {
+  color: #00156f;
+  padding-right: 15px;
+  font-size: 40px;
+}
+
+.parallax-window {
+  width: 100%;
+  height: 800px;
+}
+
+.section2>h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+.section>h1 {
+  border: 2px solid black;
+}
+
+.section3>h1 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.section2>img {
+  max-width: 260px;
+}
+
+.place {
+  font-family: monotype corsiva;
+  font-size: 18px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.place1:hover {
+  transition-duration: 0.5s;
+}
+
+.place2:hover {
+  transition-duration: 0.5s;
+}
+
+.place3:hover {
+  transition-duration: 0.5s;
+}
+
+.place4:hover {
+  transition-duration: 0.5s;
+}
+
+.place img {
+  border-radius: 20px;
+  margin: auto;
+}
+
+.place h2 {
+  font-size: 29px;
+}
+
+.place p {
+  font-size: 1.1em;
+}
+
+.place1 {
+  text-align: justify;
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 14px;
+  border: 1px solid rgb(157, 157, 157);
+}
+
+.place2 {
+  text-align: justify;
+  background-color: #ffffff;
+  margin: 14px;
+  border-radius: 40px;
+  width: 260px;
+  padding: 15px;
+  border: 1px solid rgb(157, 157, 157);
+}
+
+.place3 {
+  text-align: justify;
+  background-color: #ffffff;
+  margin: 14px;
+  border-radius: 40px;
+  width: 260px;
+  padding: 15px;
+  border: 1px solid rgb(157, 157, 157);
+}
+
+.place4 {
+  text-align: justify;
+  background-color: #ffffff;
+  margin: 14px;
+  border-radius: 40px;
+  width: 260px;
+  padding: 15px;
+  border: 1px solid rgb(157, 157, 157);
+}
+
+.place1 h2 {
+  margin-bottom: 20px;
+}
+
+.place2 h2 {
+  margin-bottom: 20px;
+}
+
+.place3 h2 {
+  margin-bottom: 20px;
+}
+
+.place4 h2 {
+  margin-bottom: 20px;
+}
+
+#secpara {
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #6156dd;
+  border: none;
+  color: #303030;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  padding: 8px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.placeimg {
+  display: flex;
+  flex-direction: column;
+}
+
+#readpara {}
+
+@media only screen and (max-width: 1400px) {
+  #readpara
+}
+
+#more1,
+#more2,
+#more3,
+#more4 {
+  display: none;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.section4 {
+  background-image: url("island boat.jpg");
+  background-color: #ffffff;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.section4 p {
+  font-family: cursive;
+  margin-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: #000000;
+  text-align: left;
+}
+
+.envelop {
+  border-radius: 30px;
+  position: ;
+  margin-top: 59px;
+  margin-bottom: 59px;
+  background-color: #000000;
+  height: 435px;
+  width: 350px;
+  opacity: 0.8;
+}
+
+.signin {
+  border-radius: 30px;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  width: 352px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #FF003F;
+}
+
+.email,
+.password {
+  padding-left: 10px;
+  font-size: 40px;
+  color: #eeeeee;
+}
+
+.password {
+  padding-top: 40px;
+}
+
+.ebox,
+.passbox {
+  padding-left: 10px;
+  padding-top: 15px;
+  opacity: 0.8;
+  max-width: 300px;
+  font-size: 20px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.submit {
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 110px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.submit:hover {
+  transform: translateX(3px);
+  transform: translateY(3px);
+}
+
+.abouthotel {
+  margin-bottom: 40px;
+  background-color: #D1F4E7;
+  width: calc(100%-40px-40px);
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.hotelimg {
+  margin: auto;
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouthpara {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.abouthp {
+  font-size: 20px;
+}
+
+.abouthotel h1 {
+  font-family: cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
