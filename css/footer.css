@@ -1,0 +1,69 @@
+footer {
+  background-color: rgb(203, 203, 203);
+  height:450px;
+}
+
+.location {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid grey;
+  color: #0D0263;
+
+}
+
+.location>.fa {
+  display: flex;
+  justify-content: center;
+  width: 45px;
+  font-size: 30px;
+}
+
+.location>p {
+  letter-spacing: 2px;
+}
+.contactbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.copyright{
+	height:60px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #D6DfD6;
+}
+.company{
+	display: flex;
+}
+.companylogo{
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
+.logoheader{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoheader>img{
+	padding: 25px;
+	border-radius: 35px;
+}
+.logos{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.logos>img{
+	border-radius: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
