@@ -266,6 +266,11 @@ a:hover {
     margin-left: 0px;
     margin-right: 5PX;
   }
+
+  #navbar {
+    height: 80px;
+  }
+  
 }
 
 
